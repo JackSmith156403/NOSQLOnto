@@ -44,7 +44,7 @@
                                     rdfs:domain <http://purl.org/db/nosql#NonRelationalDB>;
                                     rdfs:range <http://purl.org/db/nosql#Index> . 
 #  --------------------------- Property 3------------------------- 
-<http://purl.org/db/nosql#hasData_Bucket> rdf:type owl:ObjectProperty ;
+<http://purl.org/db/nosql#hasData_Bucket> rdf:type owl:ObjectProperty reload ;
                                           rdfs:comment "Special to CouchDB databases, a CouchDB has a number of data buckets." ;
                                          rdfs:subPropertyOf <http://purl.org/db/nosql#hasEntity>;
                                           rdfs:label "hasData_Bucket"@IRI-based; 
